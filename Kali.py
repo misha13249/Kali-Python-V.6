@@ -770,7 +770,7 @@ class GitEngine:
 
 class PackageManagerSystem:
     def __init__(self):
-        self.installed_apt = ["ls", "cat", "cd", "pwd", "echo"]
+        self.installed_apt = ["ls", "cat", "cd", "pwd", "echo", "apt", "pip"]
         self.installed_pip = {"pip": "23.0.1"}
         self.apt_updated = False
         self.venvs = {}
